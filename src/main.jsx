@@ -2,6 +2,6 @@ var React = require('react');
 
 var ReactDOM = require('react-dom');
 
-var List = require('./components/List.jsx');
+var Manager = require('./components/Manager.jsx');
 
-ReactDOM.render(<List />, document.getElementById('ingredients'));
+ReactDOM.render(<Manager />, document.getElementById('main'));
